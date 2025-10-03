@@ -1,4 +1,4 @@
-# Gradient Direct Messages and Gradient Member List are discontinued.
+## Gradient Direct Messages & Member List are discontinued.
 - if you got updated version, please make a pull request
 
 ## Snippets
