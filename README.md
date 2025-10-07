@@ -1,1 +1,1 @@
-Repository that is containing my .css and etc files 
+Repository that is containing my .css files and etc 
