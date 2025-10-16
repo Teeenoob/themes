@@ -60,6 +60,7 @@
   --spotifyembed-inline-gap: 0.5rem;
 } /* sorry that you see this */
 
+/* Main container */
 div[class*="embed__"] > div {
   position: relative;
   display: flex;
@@ -70,7 +71,8 @@ div[class*="embed__"] > div {
   padding-right: var(--spotifyembed-padding-right);
 }
 
-div[class*="embed__"] [role="button"][tabindex="0"] {
+/* Content wrapper */
+div[class*="embed__"] > div > div[class*="contentContainer__"] > div[class*="contentWrapper__"] {
   flex: 0 0 var(--spotifyembed-cover-size);
   display: flex;
   flex-direction: column;
@@ -81,6 +83,7 @@ div[class*="embed__"] [role="button"][tabindex="0"] {
   margin-top: var(--spotifyembed-content-margin-top);
 }
 
+/* Image container */
 div[class*="embed__"] [style*="background-image"] {
   width: var(--spotifyembed-cover-size);
   height: var(--spotifyembed-cover-size);
@@ -90,6 +93,7 @@ div[class*="embed__"] [style*="background-image"] {
   box-shadow: var(--spotifyembed-cover-shadow);
 }
 
+/* Content title */
 div[class*="embed__"] [data-text-variant="text-md/semibold"] {
   max-width: var(--spotifyembed-cover-size);
   font-weight: 700;
@@ -108,6 +112,7 @@ div[class*="embed__"] [data-text-variant="text-md/semibold"] {
   white-space: normal;
 }
 
+/* Content info wrapper */
 div[class*="embed__"] div[class*="contentInfoWrapper__"] {
   position: absolute;
   top: 40%;
@@ -130,6 +135,7 @@ div[class*="embed__"] div[class*="contentInfoWrapper__"] {
   transform: translateY(var(--spotifyembed-info-translate-y));
 }
 
+/* Inline flex containers */
 div[class*="embed__"] div[class*="timestampContainer_"],
 div[class*="embed__"] div[class*="partyStatusWrapper_"] {
   display: inline-flex;
@@ -138,6 +144,7 @@ div[class*="embed__"] div[class*="partyStatusWrapper_"] {
   justify-content: flex-start;
 }
 
+/* Action wrapper */
 div[class*="embed__"] div[class*="actionWrapper__"] {
   position: absolute;
   bottom: var(--spotifyembed-action-bottom);
@@ -150,6 +157,7 @@ div[class*="embed__"] div[class*="actionWrapper__"] {
   transform: translateY(var(--spotifyembed-action-translate-y));
 }
 
+/* Buttons */
 div[class*="embed__"] button[class*="button_"] {
   width: 100%;
   border-radius: var(--spotifyembed-button-radius);
@@ -174,6 +182,7 @@ div[class*="embed__"] button[class*="button_"]:disabled {
   opacity: var(--spotifyembed-button-disabled-opacity);
 }
 
+/* Header */
 div[class*="embed__"] [data-text-variant="text-sm/semibold"] {
   position: absolute;
   top: var(--spotifyembed-header-top);
