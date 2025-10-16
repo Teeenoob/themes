@@ -1,1 +1,9 @@
 /* temporary */
+@font-face {
+    font-family: Faustina-Regular;
+    src: url('https://teeenoob.github.io/themes/Faustina-Regular.ttf');
+}
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "Faustina-Regular";
+}
