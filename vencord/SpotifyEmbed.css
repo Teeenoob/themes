@@ -1,77 +1,117 @@
+:root {
+  --spotifyembed-gap-main: 1rem;
+  --spotifyembed-padding-main: 0rem;
+  --spotifyembed-padding-right: 160px;
+
+  --spotifyembed-cover-size: 120px;
+  --spotifyembed-cover-radius: 0.5rem;
+  --spotifyembed-cover-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  --spotifyembed-content-gap: 0.5rem;
+  --spotifyembed-content-margin-top: 1rem;
+
+  --spotifyembed-title-font-size: 1rem;
+  --spotifyembed-title-color: #eee;
+  --spotifyembed-title-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+
+  --spotifyembed-info-right: 1rem;
+  --spotifyembed-info-width: 140px;
+  --spotifyembed-info-background: rgba(0, 0, 0, 0.3);
+  --spotifyembed-info-blur: blur(8px);
+  --spotifyembed-info-radius: 1rem;
+  --spotifyembed-info-padding: 0.75rem 1rem;
+  --spotifyembed-info-color: #eee;
+  --spotifyembed-info-font-size: 0.85rem;
+  --spotifyembed-info-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+
+  --spotifyembed-button-radius: 1rem;
+  --spotifyembed-button-padding: 0.5rem 0;
+  --spotifyembed-button-font-size: 1rem;
+  --spotifyembed-button-color: #eee;
+  --spotifyembed-button-background: rgba(255, 255, 255, 0.15);
+  --spotifyembed-button-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  --spotifyembed-button-hover-background: rgba(255, 255, 255, 0.3);
+
+  --spotifyembed-header-top: 0;
+  --spotifyembed-header-right: 0;
+  --spotiftembed-header-radius: 0% 0% 0% 0.5rem;
+  --spotifyembed-header-font-size: 0.9rem;
+  --spotifyembed-header-background: rgba(0, 0, 0, 0.3);
+  --spotifyembed-header-padding: 0.25rem 0.5rem;
+  --spotifyembed-header-color: #eee;
+  --spotifyembed-header-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
 .embed__98ba8 > div {
   position: relative !important;
   display: flex !important;
-  gap: 1rem !important;
-  padding: 0rem !important;
+  gap: var(--spotifyembed-gap-main) !important;
+  padding: var(--spotifyembed-padding-main) !important;
   background-clip: padding-box !important;
   min-height: 140px !important;
-  padding-right: 160px !important;
+  padding-right: var(--spotifyembed-padding-right) !important;
 }
 
-/* Album + title */
 .embed__98ba8 .contentWrapper__98ba8 {
-  flex: 0 0 120px !important;
+  flex: 0 0 var(--spotifyembed-cover-size) !important;
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  gap: 0.5rem !important;
+  gap: var(--spotifyembed-content-gap) !important;
   user-select: text !important;
   cursor: pointer !important;
-  margin-top: 1rem !important;
+  margin-top: var(--spotifyembed-content-margin-top) !important;
 }
 
 .embed__98ba8 .img__98ba8 {
-  width: 120px !important;
-  height: 120px !important;
-  border-radius: 0.5rem !important;
+  width: var(--spotifyembed-cover-size) !important;
+  height: var(--spotifyembed-cover-size) !important;
+  border-radius: var(--spotifyembed-cover-radius) !important;
   background-size: cover !important;
   background-position: center !important;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+  box-shadow: var(--spotifyembed-cover-shadow) !important;
 }
 
 .embed__98ba8 .contentTitle__98ba8 {
-  max-width: 120px !important;
+  max-width: var(--spotifyembed-cover-size) !important;
   font-weight: 700 !important;
-  font-size: 1rem !important;
+  font-size: var(--spotifyembed-title-font-size) !important;
   line-height: 1.25em !important;
   text-align: center !important;
-  color: #eee !important;
+  color: var(--spotifyembed-title-color) !important;
   user-select: text !important;
-  text-shadow: 0 0 6px rgba(0,0,0,0.8);
+  text-shadow: var(--spotifyembed-title-shadow);
   display: -webkit-box !important;
   -webkit-line-clamp: 4 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
   max-height: 6em !important;
-  word-break:keep-all !important;
+  word-break: keep-all !important;
   white-space: normal !important;
 }
 
-
-/* Time + Listening container */
 .embed__98ba8 .contentInfoWrapper__98ba8 {
   position: absolute !important;
   top: 40% !important;
-  right: 1rem !important;
-  width: 140px !important;
-  background: rgba(0, 0, 0, 0.3) !important;
-  backdrop-filter: blur(8px) !important;
-  border-radius: 1rem !important;
-  padding: 0.75rem 1rem !important;
+  right: var(--spotifyembed-info-right) !important;
+  width: var(--spotifyembed-info-width) !important;
+  background: var(--spotifyembed-info-background) !important;
+  backdrop-filter: var(--spotifyembed-info-blur) !important;
+  border-radius: var(--spotifyembed-info-radius) !important;
+  padding: var(--spotifyembed-info-padding) !important;
   display: flex !important;
   flex-direction: column !important;
   gap: 0.4rem !important;
-  color: #eee !important;
+  color: var(--spotifyembed-info-color) !important;
   font-weight: 600 !important;
-  font-size: 0.85rem !important;
-  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  font-size: var(--spotifyembed-info-font-size) !important;
+  box-shadow: var(--spotifyembed-info-shadow);
   user-select: none !important;
   z-index: 1000 !important;
   text-shadow: 0 0 6px rgba(0,0,0,0.9);
   transform: translateY(-50%) !important;
 }
 
-/* Time + listening */
 .embed__98ba8 .timestampContainer_c8f246,
 .embed__98ba8 .partyStatusWrapper_c8f246 {
   display: inline-flex !important;
@@ -80,11 +120,10 @@
   justify-content: flex-start !important;
 }
 
-/* Join button container */
 .embed__98ba8 .actionWrapper__98ba8 {
   position: absolute !important;
   bottom: 20% !important;
-  right: 1rem !important;
+  right: var(--spotifyembed-info-right) !important;
   width: 172px !important;
   user-select: none !important;
   z-index: 1000 !important;
@@ -93,16 +132,15 @@
   transform: translateY(50%) !important;
 }
 
-/* Join button */
 .embed__98ba8 .button_a22cb0 {
   width: 100% !important;
-  border-radius: 1rem !important;
-  padding: 0.5rem 0 !important;
+  border-radius: var(--spotifyembed-button-radius) !important;
+  padding: var(--spotifyembed-button-padding) !important;
   font-weight: 600 !important;
-  font-size: 1rem !important;
-  color: #eee !important;
-  background: rgba(255, 255, 255, 0.15) !important;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3) !important;
+  font-size: var(--spotifyembed-button-font-size) !important;
+  color: var(--spotifyembed-button-color) !important;
+  background: var(--spotifyembed-button-background) !important;
+  box-shadow: var(--spotifyembed-button-shadow) !important;
   cursor: default !important;
   text-shadow: 0 0 6px rgba(0,0,0,0.8);
   transition: background-color 0.3s ease !important;
@@ -110,7 +148,7 @@
 }
 
 .embed__98ba8 .button_a22cb0:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.3) !important;
+  background: var(--spotifyembed-button-hover-background) !important;
   cursor: pointer !important;
 }
 
@@ -118,20 +156,19 @@
   opacity: 0.7 !important;
 }
 
-/* Header text */
 .embed__98ba8 .header__98ba8 {
   position: absolute !important;
-  top: 0 !important;
-  right: 0 !important;
-  font-size: 0.9rem !important;
+  top: var(--spotifyembed-header-top) !important;
+  right: var(--spotifyembed-header-right) !important;
+  font-size: var(--spotifyembed-header-font-size) !important;
   font-weight: 600 !important;
-  background: rgba(0, 0, 0, 0.3) !important;
-  padding: 0.25rem 0.5rem !important;
-  border-radius: 0% 0% 0% 0.5rem !important;
-  backdrop-filter: blur(8px) !important;
-  color: #eee !important;
+  background: var(--spotifyembed-header-background) !important;
+  padding: var(--spotifyembed-header-padding) !important;
+  border-radius: var(--spotiftembed-header-radius) !important;
+  backdrop-filter: var(--spotifyembed-info-blur) !important;
+  color: var(--spotifyembed-header-color) !important;
   text-shadow: 0 0 6px rgba(0,0,0,0.9);
-  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  box-shadow: var(--spotifyembed-header-shadow);
   user-select: none !important;
   pointer-events: none !important;
   z-index: 1100 !important;
