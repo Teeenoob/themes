@@ -1,0 +1,138 @@
+.embed__98ba8 > div {
+  position: relative !important;
+  display: flex !important;
+  gap: 1rem !important;
+  padding: 0rem !important;
+  background-clip: padding-box !important;
+  min-height: 140px !important;
+  padding-right: 160px !important;
+}
+
+/* Album + title */
+.embed__98ba8 .contentWrapper__98ba8 {
+  flex: 0 0 120px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  user-select: text !important;
+  cursor: pointer !important;
+  margin-top: 1rem !important;
+}
+
+.embed__98ba8 .img__98ba8 {
+  width: 120px !important;
+  height: 120px !important;
+  border-radius: 0.5rem !important;
+  background-size: cover !important;
+  background-position: center !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5) !important;
+}
+
+.embed__98ba8 .contentTitle__98ba8 {
+  max-width: 120px !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  line-height: 1.25em !important;
+  text-align: center !important;
+  color: #eee !important;
+  user-select: text !important;
+  text-shadow: 0 0 6px rgba(0,0,0,0.8);
+  display: -webkit-box !important;
+  -webkit-line-clamp: 4 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+  max-height: 6em !important;
+  word-break:keep-all !important;
+  white-space: normal !important;
+}
+
+
+/* Time + Listening container */
+.embed__98ba8 .contentInfoWrapper__98ba8 {
+  position: absolute !important;
+  top: 40% !important;
+  right: 1rem !important;
+  width: 140px !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  backdrop-filter: blur(8px) !important;
+  border-radius: 1rem !important;
+  padding: 0.75rem 1rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.4rem !important;
+  color: #eee !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  user-select: none !important;
+  z-index: 1000 !important;
+  text-shadow: 0 0 6px rgba(0,0,0,0.9);
+  transform: translateY(-50%) !important;
+}
+
+/* Time + listening */
+.embed__98ba8 .timestampContainer_c8f246,
+.embed__98ba8 .partyStatusWrapper_c8f246 {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  justify-content: flex-start !important;
+}
+
+/* Join button container */
+.embed__98ba8 .actionWrapper__98ba8 {
+  position: absolute !important;
+  bottom: 20% !important;
+  right: 1rem !important;
+  width: 172px !important;
+  user-select: none !important;
+  z-index: 1000 !important;
+  display: flex !important;
+  justify-content: center !important;
+  transform: translateY(50%) !important;
+}
+
+/* Join button */
+.embed__98ba8 .button_a22cb0 {
+  width: 100% !important;
+  border-radius: 1rem !important;
+  padding: 0.5rem 0 !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  color: #eee !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3) !important;
+  cursor: default !important;
+  text-shadow: 0 0 6px rgba(0,0,0,0.8);
+  transition: background-color 0.3s ease !important;
+  border: none !important;
+}
+
+.embed__98ba8 .button_a22cb0:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.3) !important;
+  cursor: pointer !important;
+}
+
+.embed__98ba8 .button_a22cb0:disabled {
+  opacity: 0.7 !important;
+}
+
+/* Header text */
+.embed__98ba8 .header__98ba8 {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  padding: 0.25rem 0.5rem !important;
+  border-radius: 0% 0% 0% 0.5rem !important;
+  backdrop-filter: blur(8px) !important;
+  color: #eee !important;
+  text-shadow: 0 0 6px rgba(0,0,0,0.9);
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+  user-select: none !important;
+  pointer-events: none !important;
+  z-index: 1100 !important;
+}
