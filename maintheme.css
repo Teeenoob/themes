@@ -3,7 +3,54 @@
     font-family: Faustina-Regular;
     src: url('https://teeenoob.github.io/themes/fonts/Faustina-Regular.ttf');
 }
-
-::-webkit-input-placeholder, body, button, input, select, textarea {
-    font-family: "Faustina-Regular";
+@font-face {
+    font-family: hashtag;
+    src: url('https://teeenoob.github.io/themes/fonts/hashtag.ttf');
+}
+@font-face {
+    font-family: Aller_Rg;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/Aller_Rg.ttf');
+}
+@font-face {
+    font-family: F25_Bank_Printer;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/F25_Bank_Printer.ttf');
+}
+@font-face {
+    font-family: Halogen;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/Halogen.ttf');
+}
+@font-face {
+    font-family: RifficFree-Bold;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/RifficFree-Bold.ttf');
+}
+@font-face {
+    font-family: Vera;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/Vera.ttf');
+}
+@font-face {
+    font-family: m1;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/m1.TTF');
+}
+@font-face {
+    font-family: n1;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/n1.ttf');
+}
+@font-face {
+    font-family: s1;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/s1.ttf');
+}
+@font-face {
+    font-family: y1;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y1.ttf');
+}
+@font-face {
+    font-family: y2;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y2.ttf');
+}
+@font-face {
+    font-family: y3;
+    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y3.ttf');
+}
+* {
+    font-family: "n1" !important;
 }
