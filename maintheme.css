@@ -51,6 +51,7 @@
     font-family: y3;
     src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y3.ttf');
 }
-* {
-    font-family: "n1" !important;
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: Faustina-Regular !important;
+    text-shadow: 0px 0px 2px #000 !important;
 }
