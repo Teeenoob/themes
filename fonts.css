@@ -3,6 +3,10 @@
     src: url('https://teeenoob.github.io/themes/fonts/Faustina-Regular.ttf');
 }
 @font-face {
+    font-family: runescape_uf;
+    src: url('https://teeenoob.github.io/themes/fonts/runescape_uf.ttf');
+}
+@font-face {
     font-family: hashtag;
     src: url('https://teeenoob.github.io/themes/fonts/hashtag.ttf');
 }
