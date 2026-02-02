@@ -10,6 +10,7 @@
     font-family: hashtag;
     src: url('https://teeenoob.github.io/themes/fonts/hashtag.ttf');
 }
+
 @font-face {
     font-family: Aller_Rg;
     src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/Aller_Rg.ttf');
@@ -53,4 +54,25 @@
 @font-face {
     font-family: y3;
     src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y3.ttf');
+}
+
+@font-face {
+    font-family: darhud-ocra;
+    src: url('https://teeenoob.github.io/themes/fonts/darhud/ocra.ttf');
+}
+@font-face {
+    font-family: darhud-tf2;
+    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2.ttf');
+}
+@font-face {
+    font-family: darhud-tf2build;
+    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2build.ttf');
+}
+@font-face {
+    font-family: darhud-tf2professor;
+    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2professor.ttf');
+}
+@font-face {
+    font-family: darhud-tf2secondary;
+    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2secondary.ttf');
 }
