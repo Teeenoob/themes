@@ -1,78 +1,82 @@
 @font-face {
     font-family: Faustina-Regular;
-    src: url('https://teeenoob.github.io/themes/fonts/Faustina-Regular.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/Faustina-Regular.ttf");
 }
 @font-face {
     font-family: runescape_uf;
-    src: url('https://teeenoob.github.io/themes/fonts/runescape_uf.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/runescape_uf.ttf");
+}
+@font-face {
+    font-family: RuneScape-ENA;
+    src: url("https://teeenoob.github.io/themes/fonts/RuneScape-ENA.ttf");
 }
 @font-face {
     font-family: hashtag;
-    src: url('https://teeenoob.github.io/themes/fonts/hashtag.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/hashtag.ttf");
 }
 
 @font-face {
     font-family: Aller_Rg;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/Aller_Rg.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/Aller_Rg.ttf");
 }
 @font-face {
     font-family: F25_Bank_Printer;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/F25_Bank_Printer.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/F25_Bank_Printer.ttf");
 }
 @font-face {
     font-family: Halogen;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/Halogen.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/Halogen.ttf");
 }
 @font-face {
     font-family: RifficFree-Bold;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/RifficFree-Bold.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/RifficFree-Bold.ttf");
 }
 @font-face {
     font-family: Vera;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/Vera.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/Vera.ttf");
 }
 @font-face {
     font-family: m1;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/m1.TTF');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/m1.TTF");
 }
 @font-face {
     font-family: n1;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/n1.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/n1.ttf");
 }
 @font-face {
     font-family: s1;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/s1.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/s1.ttf");
 }
 @font-face {
     font-family: y1;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y1.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/y1.ttf");
 }
 @font-face {
     font-family: y2;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y2.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/y2.ttf");
 }
 @font-face {
     font-family: y3;
-    src: url('https://teeenoob.github.io/themes/fonts/DDLCFonts/y3.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/DDLCFonts/y3.ttf");
 }
 
 @font-face {
     font-family: darhud-ocra;
-    src: url('https://teeenoob.github.io/themes/fonts/darhud/ocra.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/darhud/ocra.ttf");
 }
 @font-face {
     font-family: darhud-tf2;
-    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/darhud/tf2.ttf");
 }
 @font-face {
     font-family: darhud-tf2build;
-    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2build.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/darhud/tf2build.ttf");
 }
 @font-face {
     font-family: darhud-tf2professor;
-    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2professor.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/darhud/tf2professor.ttf");
 }
 @font-face {
     font-family: darhud-tf2secondary;
-    src: url('https://teeenoob.github.io/themes/fonts/darhud/tf2secondary.ttf');
+    src: url("https://teeenoob.github.io/themes/fonts/darhud/tf2secondary.ttf");
 }
