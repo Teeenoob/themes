@@ -1,0 +1,13 @@
+/* fonts */
+@import url("https://teeenoob.github.io/themes/main/fonts.css");
+/* fonts */
+/* main */
+body {
+    --font: '';
+    --code-font: '';
+}
+body {
+    --font-primary: var(--font), 'gg sans';
+    --font-display: var(--font), 'gg sans';
+    --font-code: var(--code-font), 'gg mono';
+}
